@@ -49,4 +49,4 @@ def nearest_neighbor(target_vector, vectors):
             best_similarity = similarity
             best_index = i
 
-    return best_index
+    return int(best_index)
